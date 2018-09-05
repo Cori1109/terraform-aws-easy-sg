@@ -24,3 +24,8 @@ variable "tags" {
     TFModule = "rms1000watt/easy-sg/aws"
   }
 }
+
+variable "world_ports" {
+  description = "List of ports to open to the world"
+  default     = [""]
+}
