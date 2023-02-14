@@ -12,7 +12,7 @@ Terraform module to create a security group that whitelists your current WAN IP 
 
 ```hcl
 module "easy-sg" {
-  source = "rms1000watt/easy-sg/aws"
+  source = "Cori1109/easy-sg/aws"
 
   vpc_id = "vpc-xxxxxxxxxxxxxxxxx"
 }
